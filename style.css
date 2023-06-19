@@ -1,6 +1,7 @@
 :root {
     --cor-clara: #ffdcad;
     --cor-escura: #62753b;
+    --cor-cinza: #464646;
 }
 
 body {
@@ -20,6 +21,28 @@ section {
     width: 500px;
     margin: auto;
     box-shadow: 0.3em 0.3em 0.9em #00000067;
+}
+
+div {
+    margin-bottom: 1em;
+}
+
+select {
+    margin-bottom: 1em;
+}
+
+#add {
+    border-radius: 0.5em;
+    border: 1px solid var(--cor-cinza)
+}
+
+.botao {
+    padding: 0.5em;
+    background-color: var(--cor-escura);
+    color: white;
+    font: normal 1em Arial;
+    border-radius: 0.5em;
+    border: 1px solid var(--cor-cinza);
 }
 
 .rodape {

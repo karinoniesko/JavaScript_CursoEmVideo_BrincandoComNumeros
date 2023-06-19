@@ -11,8 +11,17 @@
     <main>
         <h1>Brincando com números</h1>
         <section>
-            <div>Informe um número de 1 a 100:</div>
-            <div></div>
+            <div>
+                <p>Informe um número de 1 a 100:</p>
+                <input type="number" name="txtnum" id="txtnum">
+                <input type="button" value="Adicionar" id="add" onclick="add()">
+            </div>
+            <div>
+                <select name="result" id="result" size="10">
+                    <option>Digite os números no espaço acima</option>
+                </select> <br>
+                <input type="button" value="Analisar" onclick="resultado" class="botao">
+            </div>
         </section>
     </main>
     
